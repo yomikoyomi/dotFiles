@@ -35,7 +35,6 @@ SAVEHIST=1000000
 PROMPT="%{${fg[green]}%}[%n@%m]%{${reset_color}%} %~
 %# "
 
-
 # 単語の区切り文字を指定する
 autoload -Uz select-word-style
 select-word-style default
@@ -129,7 +128,7 @@ bindkey '^R' history-incremental-pattern-search-backward
 # エイリアス
 
 alias la='ls -a'
-alias ll='ls -l'
+alias ll='ls -al'
 
 alias rm='rm -i'
 alias cp='cp -i'
