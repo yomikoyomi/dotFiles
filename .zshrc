@@ -1,6 +1,8 @@
 export PYENV_ROOT="$HOME/.pyenv"
 export RBENV_ROOT="$HOME/.rbenv"
-export PATH="$RBENV_ROOT/bin:$PYENV_ROOT/bin:$PATH"
+export NLS_LANG=AMERICAN_AMERICA.UTF8
+export LD_LIBRARY_PATH=/usr/lib/oracle/12.1/client64/lib/${LD_LIBRARY_PATH}
+export PATH="$RBENV_ROOT/bin:$PYENV_ROOT/bin:/usr/bin:$PATH"
 eval "$(pyenv init -)"
 eval "$(rbenv init -)"
 # alias ll='ls -al'
